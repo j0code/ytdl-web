@@ -12,7 +12,7 @@ const server = http.createServer((req, res) => {
 	}
 
 	ytdl.getInfo(url).then(i => {
-		res.writeHead(200, {"Content-Type": "application/json"})
+		res.writeHead(200, {"Content-Type": "application/json", "Access-Control-Allow-Origin": "*"})
 		res.end(JSON.stringify(i))
 	})
 	.catch(e => {
