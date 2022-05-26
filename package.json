@@ -1,7 +1,7 @@
 {
   "name": "ytdl-web",
   "version": "1.0.0",
-  "description": "",
+  "description": "ytdl-web is a light-weight webservice that provides ytdl.getInfo() over http",
   "main": "main.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +10,13 @@
   "license": "ISC",
   "dependencies": {
     "ytdl-core": "^4.11.0"
-  }
+  },
+	"repository": {
+    "type": "git",
+    "url": "git+https://github.com/j0code/ytdl-web.git"
+  },
+	"bugs": {
+    "url": "https://github.com/j0code/ytdl-web/issues"
+  },
+  "homepage": "https://github.com/j0code/ytdl-web#readme"
 }
