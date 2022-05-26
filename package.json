@@ -1,6 +1,6 @@
 {
   "name": "ytdl-web",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ytdl-web is a light-weight webservice that provides ytdl.getInfo() over http",
   "main": "main.mjs",
   "scripts": {
