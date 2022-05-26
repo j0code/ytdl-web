@@ -1,0 +1,14 @@
+{
+  "name": "ytdl-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "j0code",
+  "license": "ISC",
+  "dependencies": {
+    "ytdl-core": "^4.11.0"
+  }
+}
